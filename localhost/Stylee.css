@@ -1,0 +1,752 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	overflow-x:hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	display: flex;
+	white-space: nowrap;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+}
+
+main {
+	height: 100%;
+	width: 100%;
+	margin-top: 18px;
+}
+
+.logo {
+	margin-left: 250px;
+	position: relative;
+	top:25px;
+	display: flex;
+	display: row;
+}
+
+.logo img {
+	margin-right: 3px;
+	position: relative;
+	bottom: 25px;
+}
+
+.logo p {
+	font-size: 30px;
+	font-family: 'a_AlgeriusCaps', arial;
+}
+
+.lng-b {
+	color: #605270;
+}
+
+.Col {
+	margin-left: 100px;
+	margin-top: 39px;
+	display: flex;
+	flex-direction: row;
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.Menu a {
+	padding-left: 75px;
+}
+
+.Menu a:hover {
+	cursor: pointer;
+	color: #5b4a6e;
+}
+
+.lang{
+	margin-left: 20px;
+	margin-top: 20px;
+	position: relative;
+	left: 25px;
+}
+
+.changelang {
+	color: purple;
+	border-width: 20px;
+	line-height: 1.3; 
+	box-sizing: border-box; 
+	font-size: 16px; 
+	padding: 12px 20px 8px 20px; width: 100%; 
+font-family: sans-serif; 
+background-image: url(image/СтрелкаФ.jpg); 
+background-size: 20px;
+font-weight: 700; 
+margin: 0; 
+border: 1px solid #aaa;
+ box-shadow: 0 1px 0 1px rgba(0,0,0,.04); 
+border-radius: .5px;
+ -moz-appearance: none;
+ -webkit-appearance: none;
+ appearance: none;
+background-repeat: no-repeat, repeat;
+background-position: right .2em top 50%, 0 0; 
+}
+.select-css::-ms-expand { display: none; } 
+ .select-css:hover { border-color: purple; } 
+ .select-css:focus { border-color: purple; 
+ box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+ box-shadow: 0 0 0 3px -moz-mac-focusring; 
+color: #222;
+ outline: none; 
+ }
+  .select-css option { font-weight:normal; } 
+ *[dir="rtl"] .select-css, :root:lang(ar) .select-css, :root:lang(iw) .select-css { 
+background-position: left .7em top 50%, 0 0; 
+padding: 6px 8px 5px 3px; 
+}
+.Button {
+	display: block;
+	margin-top: 39px;
+	margin-left: 150px;
+}
+
+.Button a {
+	border: solid 1px;
+	padding: 15px 20px 15px 20px;
+	color: white;
+	background: #5b4a6e;
+	border-radius: 10px;
+}
+
+.Trash {
+	display: flex;
+	flex-direction: column;
+}
+
+.line {
+	margin-top: 15px;
+}
+
+.Col2{
+	display: flex;
+	flex-direction: column;
+	margin-left: 180px;
+	margin-top: 39px;
+}
+
+.Menu2 a {
+	margin-left: 75px;
+	color: black;
+}
+
+.Menu2 a:hover {
+	cursor: pointer;
+	color: #5b4a6e;
+}
+
+.head {
+	display: flex;
+	flex-direction: row;
+}
+
+.Lupa {
+	display: flex;
+	position: relative;
+	cursor: pointer;
+	margin-left: 350px;
+	margin-top: 35px;
+}
+
+.Button2 {
+	position: relative;
+	margin-left: 15px;
+	margin-top: 35px; 
+}
+
+.Button2 a {
+	border: solid 1px;
+	padding: 15px 20px 15px 20px;
+	color: white;
+	background: #5b4a6e;
+	border-radius: 10px;
+}
+
+
+.London {
+	background: url(image/London2.jpg);
+}
+
+.card {
+	margin-left: 175px;
+	padding-top: 50px;
+}
+
+.card h1, h2 {
+	font-size: 76px;
+	font: lighter;
+}
+
+.card h2 {
+	margin-top: 20px;
+	color: #605270;
+}
+
+.cards {
+	display: flex;
+	flex-direction: row;
+}
+
+.Pod {
+	margin-left: 275px;
+	margin-top: 250px;
+}
+
+.Pod a {
+	font-size: 54px;
+	color: #f6f8fa;
+	border: solid;
+	border-color: #5b4a6e;
+	padding: 5px 20px 10px 20px;
+	border-radius: 5px;
+	background-color: #5b4a6e;
+}
+
+.card2 {
+	margin-left: 180px;
+	margin-top: 100px;
+}
+
+.Elipses {
+	margin-top: 100px;
+	text-align: center;
+	white-space: nowrap;
+	padding-bottom: 25px;
+}
+
+.Elipses img {
+	padding-left: 10px;
+}
+
+.Plates {
+	background-color: #232628;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.Perev {
+	color: #605270;
+	font-size: 54px;
+	margin-left: 175px;
+	padding-top: 45px;
+}
+
+
+.Perevi {
+	display: flex;
+	flex-direction: row;
+}
+
+.Perev1 {
+	margin-left: 100px;
+	padding-top: 45px;
+	font-size: 24px;
+	color: #605270;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.Perev2 {
+	margin-left: 84px;
+	padding-top: 45px;
+	font-size: 24px;
+	color: #605270;
+}
+
+.Perevi2 {
+	display: flex;
+	flex-direction: row;
+}
+
+.Perev3 {
+	margin-left: 175px;
+	padding-top: 5px;
+	font-size: 24px;
+	color: #605270;
+}
+
+.Perev4 {
+	margin-left: 170px;
+	padding-top: 5px;
+	font-size: 24px;
+	color: #605270;
+}
+
+.Perev5 {
+	margin-left: 75px;
+	padding-top: 5px;
+	font-size: 24px;
+	color: #605270;
+	padding-bottom: 75px;
+}
+
+.Perev5 a, .Perev4 a,  .Perev2 a, .Perev1 a {
+	color: #605270;
+}
+
+.Perev5 a:hover, .Perev4 a:hover,  .Perev2 a:hover, .Perev1 a:hover {
+	cursor: pointer;
+	color: #a0a8ad;
+}
+
+.Kurs {
+	background-color: #f2f2f2;
+	display: flex;
+	flex-direction: row;
+}
+
+.Kursi {
+	display: flex;
+	flex-direction: column;
+}
+
+.Valut spam {
+	color: #605270;
+}
+
+.Valut {
+	padding-top: 50px;
+	font-size: 54px;
+	padding-left: 175px;
+}
+
+
+.Konvert {
+	padding-top: 50px;
+	font-size: 20px;
+	padding-left:175px;
+}
+
+.Konvert spam {
+	color: #605270;
+}
+
+.Konvert2 {
+	padding-top: 50px;
+	font-size: 20px;
+	padding-left:175px;
+}
+
+.Konvert2 spam {
+	color: #605270;
+}
+
+.Konvert3 {
+	padding-top: 50px;
+	font-size: 20px;
+	padding-left:175px;
+}
+
+.Konvert3 spam {
+	color: #605270;
+}
+
+.Obmen a{
+	font-size:20px;
+	color: #f6f8fa;
+	border: solid;
+	border-color: #5b4a6e;
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+	background-color: #5b4a6e;
+}
+
+.Obmen {
+	padding-top: 50px;
+	padding-left:175px;
+	padding-bottom: 60px;
+}
+
+.lng-Krus {
+	padding-left: 300px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.Ipoteka {
+	background-color: #e8f2fe;
+}
+
+.trains {
+	display: flex;
+	flex-direction: row;
+}
+
+.train	{
+	font-size: 54px;
+	margin-left: 175px;
+	padding-top: 45px;
+}
+
+.train2 hr {
+	position: relative;
+	top: 20px;
+	left: 10px;
+	color: #605270;
+}
+
+.train2 {
+	font-size: 24px;
+	margin-left: 175px;
+	padding-top:40px;
+}
+
+.train3 hr {
+	position: relative;
+	top: 20px;
+	left: 10px;
+	color: #605270;
+}
+
+.train3 {
+	font-size: 24px;
+	margin-left: 175px;
+	padding-top:40px;
+}
+
+.train4 hr {
+	position: relative;
+	top: 20px;
+	left: 10px;
+	color: #605270;
+}
+
+.trains2 {
+	display: flex;
+	flex-direction: row;
+}
+
+.train4 {
+	font-size: 24px;
+	margin-left: 175px;
+	padding-top:80px;
+}
+
+.train5 hr {
+	position: relative;
+	top: 20px;
+	left: 10px;
+	color: #605270;
+}
+
+.train5 {
+	font-size: 24px;
+	margin-left: 180px;
+	padding-top:80px;
+	padding-bottom: 140px;
+}
+
+.IpotImg {
+	padding-left: 100px;
+	position: relative;
+	bottom: 50px;
+}
+
+.Kredit {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	height: 1100px;
+}
+
+.Krediti {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.Kreditov {
+	padding-left: 70px;
+}
+
+.KT1 {
+	font-size: 60px;
+	margin-top: 50px;
+	margin-right: 381px;
+}
+
+.KT1 spam {
+	color: #605270;
+}
+
+.KT2 {
+	position: relative;
+	left: 672.5px;
+	top: 50px;
+	font-size: 20px;
+}
+
+.KT3 {
+	position: relative;
+	left: 672.5px;
+	top: 100px;
+	font-size: 20px;
+}
+
+.KT3 spam {
+	color: #605270;
+}
+
+.KT4 {
+	position: relative;
+	left: 672.5px;
+	top: 150px;
+	font-size: 20px;
+}
+
+.KT5 {
+	position: relative;
+	left: 672.5px;
+	top: 200px;
+	font-size: 20px;
+
+}
+
+.KT5 spam {
+	color: #605270;
+}
+
+.KT6 {
+	position: relative;
+	left: 672.5px;
+	top: 300px;
+	font-size: 20px;
+}
+
+.KT6 a {
+	font-size:20px;
+	color: #f6f8fa;
+	border: solid;
+	border-color: #5b4a6e;
+	padding: 15px 25px 15px 25px;
+	border-radius: 5px;
+	background-color: #5b4a6e;
+}
+
+.KT7 {
+	position: relative;
+	left: 672.5px;
+	top: 375px;
+	font-size: 20px;
+}
+
+.KT7 spam {
+	color: #605270;
+}
+
+.Row-rev {
+	display: flex;
+	flex-direction: row;
+}
+
+.Kredit img {
+	padding-left: 50px;
+	position: relative;
+	bottom: 215px;
+}
+
+.News {
+	background-color: #605270;
+	border-color: ;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 50px;
+}
+
+.Nevs1 {
+	padding-top: 25px;
+	padding-left: 200px;
+	font-size: 54px;
+	color: white;
+}
+
+.Nevs2 {
+	font-size: 16px;
+	padding-left: 200px;
+	padding-top: 50px;
+	color: white;	
+}
+
+.Nevs2 p {
+	font-weight: lighter;
+}
+
+.Nevses1 {
+	display: flex;
+	flex-direction: row;
+}
+
+.Nevs3 {
+	font-size: 16px;
+	padding-left: 350px;
+	padding-top: 50px;
+	color: white;
+}
+
+.Nevs4 {
+	font-size: 16px;
+	padding-left: 350px;
+	padding-top: 50px;
+	color: white;
+}
+
+.Nevses2 {
+	display: flex;
+	flex-direction: row;
+}
+
+.Nevs5{
+	font-size: 16px;
+	padding-left: 200px;
+	padding-top: 50px;
+	color: white;
+}
+
+.Nevs6{
+	font-size: 16px;
+	padding-left: 210px;
+	padding-top: 50px;
+	color: white;
+}
+
+.Nevs7{
+	font-size: 16px;
+	padding-left: 230px;
+	padding-top: 50px;
+	color: white;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	background-color: #232628;
+}
+
+.search {
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+.lng-seee input{
+	width: 1100px;
+	height: 45px;
+	margin-left: 190px;
+	margin-top: 75px;
+	background-size: 10px;
+	background-repeat: no-repeat;
+	background-position: 21px;
+	border-color: white;
+}
+
+.see {
+	display: flex;
+	flex-direction: row;
+}
+
+.lng-seee2 input {
+	margin-top: 75px;
+	margin-left: 60px;
+	color: white;
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	background-color: #605270;
+	border-color: #605270;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.numbers {
+	display: flex;
+	flex-direction: row;
+}
+
+.lox {
+	padding-left: 190px;
+	padding-top: 60px;
+}
+
+.lng-Vetro {
+	color: white;
+	padding-top: 90px;
+	padding-left: 15px;
+	font-size: 28px;
+}
+
+.callme {
+	color: white;
+	padding-top: 90px;
+	padding-left: 1000px;
+	font-size: 28px;
+}
+
+.shit {
+	margin-top: 30px;
+	margin-left: 190px;
+	position: relative;
+	width: 1357px;
+	color: #8a8a8a;
+}
+
+
+.Footeshist {
+	display: flex;
+	flex-direction: row;
+	color: white;
+	font-weight: medium;
+}
+
+.Footeshist a {
+	color: white;
+}
+
+.foot1 {
+	margin-left: 190px;
+	margin-top: 15px;
+}
+
+
+.foot1 li, .foot2 li, .foot3 li, .foot4 li {
+	padding-top: 15px;
+}
+
+.foot2, .foot3, .foot4 {
+	margin-left: 170px;
+	margin-top: 15px;
+}
+
+.END {
+	margin-left: 190px;
+	margin-top: 15px;
+}
+
+.END p {
+	color: #4f4f4f;
+	font-size: 15px;
+}

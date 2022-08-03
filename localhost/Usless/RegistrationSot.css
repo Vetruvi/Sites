@@ -1,0 +1,433 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	width: 100%;
+	height: 100%;
+	overflow-x:hidden;
+}
+
+header {
+	display: flex;
+	white-space: nowrap;
+	width: 100%;
+	height: 100%;
+}
+
+main {
+	display: flex;
+	width: 100%;
+	white-space: nowrap;
+	flex-direction: column;
+}
+
+input {
+	opacity: 0.5;
+}
+
+.Logo {
+	display: flex;
+	margin:0 auto;
+	padding-top: 75px;
+	position: relative;
+	text-align: center;
+	flex-direction: column; 
+}
+
+.Logo h1 {
+	position: relative;
+	right: 40px;
+}
+
+.Logo span {
+	font-size: 32px;
+	color: black;
+}
+
+.Bitmin {
+	padding-left: 8px;
+}
+
+.Logo h2 {
+	font-size: 18px;
+	padding-top: 10px;
+	position: relative;
+	right: 76px;
+}
+
+.Logo a {
+	font-size: 12px;
+	padding-top: 20px;
+	position: relative;
+	cursor: pointer;
+	color: #369ffe;
+	padding-left: 55px;
+	font-weight: lighter;
+}
+
+.Logo2 {
+	position: relative;
+	right: 30px;
+}
+
+.Logo2 h2 {
+	font-size: 18px;
+	padding-top: 10px;
+	position: relative;
+	left:  24px;
+}
+
+.Logo2 a {
+	font-size: 12px;
+	padding-top: 20px;
+	cursor: pointer;
+	color: #369ffe;
+	padding-left: 135px;
+	font-weight: lighter;
+}
+
+.Logo2 span {
+	color: black;
+	font-size: 32px;
+	position: relative;
+	right: 35px;
+}
+
+.Logo2 img {
+	position: relative;
+	right: 35px;
+}
+
+
+.Logo2 h1 {
+	position: relative;
+	right: 20px;
+}
+
+.Logo2 {
+	display: flex;
+	margin:0 auto;
+	padding-top: 75px;
+	position: relative;
+	text-align: center;
+	flex-direction: column; 
+}
+
+.Registr {
+	display: flex;
+	text-align: center;
+	position: relative;
+	left: 15px;
+	font-size: 14px;
+}
+
+.Reg {
+	position: relative;
+}
+
+.Sign {
+	position: relative;
+	cursor: pointer;
+}
+
+
+.form-control {
+	right: 20px;
+	width: 400px;
+	height: 35px;
+	margin: 5px 45px 0px 0;
+}
+
+.Registration p {
+	position: relative;
+	right: 20px;
+}
+
+.Registration input {
+	position: relative;
+	right: 20px;
+	width: 400px;
+	height: 35px;
+}
+
+
+
+.Registration {
+	padding-top: 30px;
+	margin:0 auto;
+}
+
+.Pas, .Log, .Name, .Fam, {
+	padding-top: 10px;
+}
+
+.Pas {
+	margin-left: 15px;
+}
+
+.Log {
+	margin-left: 15px;
+}
+
+.Fam {
+	margin-left: 15px;
+}
+
+.Em {
+	margin-left: 35px;
+}
+
+.Em span {
+	position: relative;
+	right: 20px;
+}
+
+.Name {
+	margin-left: 15px;
+}
+
+.line {
+	width: 500px;
+	margin:0 auto;
+	position: relative;
+	top: 20px;
+	right: 20px;
+}
+
+/*.soc {
+	margin:0 auto;
+	margin-top: 30px;
+	position: relative;
+	right: 180px;
+	border: solid 1px;
+	padding-right: 30px;
+
+}*/
+
+.Socials {
+	display: flex;
+	margin: 0 auto;
+	top: 30px;
+}
+
+.vk, .Google, .facebook, .Google, .facebook, .twiter{
+	top: 30px;
+	cursor: pointer;
+	position: relative;
+}
+
+.vk {
+	right: 58px;
+}
+
+.Google {
+	right: 36px;
+}
+
+.facebook {
+	right: 5px;
+}
+
+.twiter {
+	left: 31px;
+}
+
+.Create button {
+    background-color: #5b4a6e;
+    background-repeat:no-repeat;
+    border: solid 1px;
+    padding: 20px 125px 20px 125px;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    margin-right: 40px;
+    margin-top: 20px;
+    border-color: #5b4a6e;
+    color: #FFFFFF;
+    border-radius: 30px;
+}
+
+.Create {
+	text-align: center;
+}
+
+.form-control {
+	margin-bottom: 10px;
+}
+
+/*.Email input {
+	width: 300px;
+	background-image: url(People.png);
+	background-size: 24px;
+	background-repeat: no-repeat;
+	background-position: 2% 50%;
+	padding-left: 40px;
+}
+
+.Password input {
+	width: 300px;
+	background-image: url(Key.png);
+	background-size: 22px;
+	background-repeat: no-repeat;
+	background-position: 2% 50%;
+	padding-left: 40px;
+}
+
+.Password {
+	margin-top: 20px;
+} */
+
+.place {
+	margin-bottom: 10px;
+}
+
+
+.Rem {
+	display: flex;
+	margin: 0 auto;
+	position: relative;
+	bottom: 45px;
+}
+
+.Rem img {
+	position: relative;
+	right: 87px;
+	top: 20px;
+	cursor: pointer;
+}
+
+.Me {
+	position: relative;
+	padding-left: 5px;
+	bottom: 0.5px;
+	font-size: 12px;
+	right: 100px;
+	top: 20px;
+	font-weight: lighter;
+	user-select: none;
+}
+
+.Me input {
+	position: relative;
+	height: 16px;
+    width: 16px;
+    background-color: red;
+    right: 116px;
+    top: 2.5px;
+}
+
+.Me input: checked.checkmark {
+	background-color: #2196f3;
+}
+
+
+.Me:hover input.checkmark {
+    background-color: #ccc678;
+}
+
+.btnsuccess {
+	margin: 0 auto;
+	border: solid 1px;
+	border-radius: 30px;
+	padding: 15px 180px 15px 180px;
+	position: relative;
+	right: 15px;
+	top: 80px;
+	background-color: #4682B4;
+	color: white;
+	cursor: pointer;
+}
+
+.Forgot {
+	position: relative;
+	padding-left: 5px;
+	bottom: 0.5px;
+	left:74px;
+	font-size: 12px;
+	top: 20px;
+	font-weight: lighter;
+	cursor: pointer;
+	color: #369ffe;
+}
+
+
+.line2 {
+	width: 500px;
+	margin:0 auto;
+	position: relative;
+	right: 16px;
+}
+
+.Socials2 {
+	display: flex;
+	margin: 0 auto;
+	top: 50px;
+	position: relative;
+}
+
+.Instr {
+	margin: 0 auto;
+	border: solid 1px;
+	margin-top: 10px;
+	color: white;
+	padding:10px 10px 10px 10px;
+	background-color: #007cff;
+}
+
+.mal input {
+	position: relative;
+	width: 270px;
+	height: 35px;
+	padding-left: 20px;
+	font-size: 16px;
+}
+
+.mal {
+	padding-top: 30px;
+	margin:0 auto;
+}
+
+.or {
+	margin:0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.mil input {
+	position: relative;
+	width: 270px;
+	height: 35px;
+	padding-left: 20px;
+	font-size: 16px;
+}
+
+.mil {
+	margin:0 auto;
+}
+
+.switch {
+	margin: 0 auto;
+	margin-top: 30px;
+	border: solid 1px;
+	border-radius: 30px;
+	padding: 15px 80px 15px 80px;
+	color: white;
+	background-color: #007cff;
+}
+
+.Pol {
+	margin: 0 auto;
+	font-size: 13px;
+	color: #369ffe;
+	margin-top: 20px;
+}

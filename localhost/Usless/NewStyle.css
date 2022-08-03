@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	font-family: 'Robboto', sans-serif;
+	width: 100%;
+	height: 100%;
+	overflow-x:hidden;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	white-space: nowrap;
+	width: 100%;
+	height: 100%;
+}
+
+main {
+	height: 100%;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.logo {
+	margin-left: 250px;
+}
+
+.logo img {
+	margin-right: 3px;
+}
+
+.logo p {
+	font-size: 30px;
+	font-family: 'a_AlgeriusCaps', arial;
+}
+
+.Col {
+	margin-left: 100px;
+	margin-top: 39px;}
+
+.Menu a {
+	padding-left: 75px;
+}
+
+.Menu a:hover {
+	cursor: pointer;
+	color: #5b4a6e;
+}
+
+
+.Button {
+	margin-top: 39px;
+	margin-left: 260px;
+}
+
+.Button a {
+	border: solid 1px;
+	padding: 15px 20px 15px 20px;
+	color: white;
+	background: #5b4a6e;
+	border-radius: 10px;
+}
+
+.header2 {
+	display: flex;
+
+}
+
+.Col2 {
+	flex-direction: column;
+}
+
+.line {
+	margin-top: 15px;
+}
+
+.Col2 {
+	margin-top: 39px;
+	margin-left: 180px;
+}
+
+
+
+.Menu2 a {
+	margin-left: 75px;
+	color: black;
+}
+
+.Menu2 a:hover {
+	cursor: pointer;
+	color: #5b4a6e;
+}
+
+.Lupa {
+	white-space: nowrap;
+	display: flex;
+	position: relative;
+	left: 1350px;
+	bottom: 20px;
+	cursor: pointer;
+}
+
+.Button2 {
+	margin-top: 39px;
+	margin-left: 260px;
+	position: relative;
+	left: 1140px;
+	bottom: 85px;
+}
+
+.Button2 a {
+	border: solid 1px;
+	padding: 15px 20px 15px 20px;
+	color: white;
+	background: #5b4a6e;
+	border-radius: 10px;
+}
+
+.London {
+	position: relative;
+	bottom: 60px;
+	background-image: url(image/London2.jpg);
+	background-size: 100%;
+	size: 100%;
+	
+}
+
+.Text {
+	padding-top: 100px;
+	padding-left: 80px;
+}
+
+.Days {
+	color: #605270;
+	position: relative;
+	top: 10px;
+}
+
+.London h1 {
+	font-size: 54px;
+}

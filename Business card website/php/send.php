@@ -26,8 +26,8 @@ try {
     $mail->Host       = ''; // SMTP сервера вашей почты
     $mail->Username   = ''; // Логин на почте
     $mail->Password   = ''; // Пароль на почте
-    $mail->SMTPSecure = 'ssl';
-    $mail->Port       = 465;
+    $mail->SMTPSecure = '';
+    $mail->Port       = ;
     $mail->setFrom('shafeev2002@mail.ru', 'Сайт'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
